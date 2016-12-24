@@ -1,0 +1,19 @@
+{
+  "name": "fetions",
+  "version": "1.0.1",
+  "description": "飞信公众平台消息接口服务中间件",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaojianguo/fetion.git"
+  },
+  "author": "gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaojianguo/fetion/issues"
+  },
+  "homepage": "https://github.com/gaojianguo/fetion#readme"
+}
