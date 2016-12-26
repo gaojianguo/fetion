@@ -1,3 +1,3 @@
-exports.Hello = function ( name ) {
-    console.log( "Hello " + name );
-}
+var fetion = require('./lib/fetion');
+
+module.exports = fetion;

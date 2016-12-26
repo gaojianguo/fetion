@@ -1,6 +1,6 @@
 {
-  "name": "fetions",
-  "version": "1.0.1",
+  "name": "fetion",
+  "version": "0.0.1",
   "description": "飞信公众平台消息接口服务中间件",
   "main": "index.js",
   "scripts": {
