@@ -1,23 +1,29 @@
-# fetion
+# fetions
 飞信公共平台消息接口服务中间件
-
+- 接入验证
+- 回复消息
+- 回复文本
+- 回复图片
+- 回复语音
+- 回复视频
+- 回复图文
 
 ## Installation
 
-$ npm install fetion
+$ npm install fetions
 
 ## Use with Connect/Express
 
 ```js
-var fetion = require('fetion');
+var fetions = require('fetions');
 var config = {
   token: 'token'
 };
 
 app.use(express.query());
-app.use('/fetion', fetion(config, function (req, res, next) {
-  // 飞信输入信息都在req.fetion上
-  var message = req.fetion;
+app.use('/fetions', fetions(config, function (req, res, next) {
+  // 飞信输入信息都在req.fetions上
+  var message = req.fetions;
   if (message.FromUserName === 'diaosi') {
     // 回复屌丝(普通回复)
     res.reply('hehe');

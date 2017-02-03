@@ -1,3 +1,3 @@
-var fetion = require('./lib/fetion');
+var fetions = require('./lib/fetions');
 
-module.exports = fetion;
+module.exports = fetions;

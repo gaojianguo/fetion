@@ -1,6 +1,6 @@
 {
-  "name": "fetion",
-  "version": "0.0.1",
+  "name": "fetions",
+  "version": "0.1.0",
   "description": "飞信公众平台消息接口服务中间件",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gaojianguo/fetion/issues"
   },
-  "homepage": "https://github.com/gaojianguo/fetion#readme"
+  "homepage": "https://github.com/gaojianguo/fetion#readme",
+  "directories": {
+    "test": "test"
+  }
 }
